@@ -1,0 +1,176 @@
+:root {
+    background: linear-gradient(90deg,#8F3985,#A675A1);
+    margin: 7%;
+    
+}
+#navbar {
+    position: fixed;
+    background: #25283D;
+    width: 100%;
+    height: 15%;
+    opacity: 1;
+    top: 0px;
+    left: 0px;
+    z-index: 5;
+}
+ul li {
+    display: inline;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: Acme;
+    
+}
+#a1 {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    margin-left: 11%;
+    padding: 2%;
+    
+}
+a:hover {
+    background-color: #A675A1;
+}
+.nav-buttons {
+    position: relative;
+    top: 15%;
+
+}
+#picOfme {
+    float: left;
+    margin-top: 10%; 
+    margin-left: 10%;
+    border: 3px solid #25283D;
+}
+#titleAboutMe {
+    color: #25283D;
+    float: right;
+    font-size: 38px;
+    margin-top: 12%;
+    margin-right: 8%;
+    font-family: Lobster;
+}
+#welcome-section {
+    position: absolute;
+    top: 80%;
+
+}
+h1 {
+    text-align: center;
+    font-family: Lobster;
+    color: #25283D;
+}
+p {
+    color: #EFD9CE;
+    font-size: 25px;
+    text-align: justify;
+    padding-right: 10%;
+    padding-left: 2%;
+  
+}
+.quote {
+    font-family: Lobster;
+    font-size: 38px;
+    color: #25283D;
+}
+#screenshots {
+    position: absolute;
+    top: 160%;
+}
+.shot1 {
+    padding-left: 8%;
+}
+.shot2 {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.projects {
+    padding-bottom: 10%;
+}
+ol li {
+    font-size: 23px;
+    color: #EFD9CE;
+    font-family: Acme;
+}
+#project-link {
+    position: absolute;
+    top: 230%;
+
+}
+.project-link {
+    font-size: 24px;
+    color: rgb(63, 75, 167);
+    margin-left: 37%;
+
+}
+footer {
+    position: absolute;
+    background: #25283D;
+    width: 100%;
+    height: 9%;
+    bottom: -200%;
+    left: 0px;
+}
+.myfooter {
+    position: relative;
+    color: #EFD9CE;
+    font-size: 20px;
+    text-align: justify;
+    text-align: center;
+    padding-left: 10%;
+
+}
+@media (max-width: 350px){
+    #navbar {
+        position: fixed;
+        background: #25283D;
+        width: 100%;
+        height: 35%;
+        opacity: 1;
+        top: 0px;
+        left: 0px;
+        z-index: 5;
+    }
+
+}
+@media (max-width: 500px){
+#welcome-section {
+    position: absolute;
+    top: 90%;
+
+}
+}
+@media (max-width: 500px){
+    #screenshots {
+        position: absolute;
+        top: 350%;
+    }
+    
+    }
+    @media (max-width: 500px){
+        #project-link {
+            position: absolute;
+            top: 430%;
+        
+        }
+        footer {
+            position: absolute;
+            background: #25283D;
+            width: 100%;
+            height: 20%;
+            bottom: -500%;
+            left: 0px;
+        }
+        .myfooter {
+            position: relative;
+            color: #EFD9CE;
+            font-size: 18px;
+            text-align: justify;
+            text-align: center;
+            padding-left: 10%;
+        
+        }
+        
+        }
+    
+/*colors #25283D #8F3985 #A675A1 #CEA2AC #EFD9CE*/
